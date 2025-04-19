@@ -22,6 +22,6 @@ def run_server():
 
 if __name__ == "__main__":
     if HOST == "localhost":
-        HOST = "127.0.0.1"  # Modbus Poll programına bu IP üzerinden bağlanabilirsiniz DENEME123
+        HOST = "127.0.0.1"  # Modbus Poll programına bu IP üzerinden bağlanabilirsiniz
     print(f"✅ Modbus TCP Server başlatıldı: {HOST}:{PORT}")
     run_server()
